@@ -1,0 +1,124 @@
+{
+  "schema": "hui-release-dependency-inventory-v1",
+  "project_license": "Apache-2.0",
+  "dependencies": [
+    {
+      "name": "torch",
+      "version": "2.8.0",
+      "license_first_line": [
+        "BSD-3-Clause"
+      ],
+      "implementation_vendored": false,
+      "installed_license_files": [
+        {
+          "path": "torch-2.8.0.dist-info/licenses/LICENSE",
+          "sha256": "c0ae8cfa6af6fa041232ce34e3b7f7bf79dae23ab611189f857e015568452263"
+        },
+        {
+          "path": "torch-2.8.0.dist-info/licenses/NOTICE",
+          "sha256": "c2cc7bf0caec7652c2b460a8a470bea1677f241e4ab8e431df34cf17f5a9fec0"
+        }
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6",
+      "license_first_line": [
+        "Copyright (c) 2005-2024, NumPy Developers."
+      ],
+      "implementation_vendored": false,
+      "installed_license_files": [
+        {
+          "path": "numpy-2.2.6.dist-info/LICENSE.txt",
+          "sha256": "b4ae62887f4dd6e9430b1a8d7017a3ba84c5d7aa630b9d17ed6f25c21b0ec5b4"
+        },
+        {
+          "path": "numpy/_core/include/numpy/random/LICENSE.txt",
+          "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec"
+        },
+        {
+          "path": "numpy/ma/LICENSE",
+          "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6"
+        },
+        {
+          "path": "numpy/random/LICENSE.md",
+          "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f"
+        }
+      ]
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.7",
+      "license_first_line": [
+        "License agreement for matplotlib versions 1.3.0 and later"
+      ],
+      "implementation_vendored": false,
+      "installed_license_files": [
+        {
+          "path": "matplotlib-3.10.7.dist-info/LICENSE",
+          "sha256": "5a1a81ea301728c8bba2933da832c0cd62229daf20893a024ab3d53244468dbc"
+        },
+        {
+          "path": "matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+          "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+        },
+        {
+          "path": "matplotlib/mpl-data/fonts/ttf/LICENSE_STIX",
+          "sha256": "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959"
+        }
+      ]
+    },
+    {
+      "name": "setuptools",
+      "version": "82.0.1",
+      "license_first_line": [],
+      "implementation_vendored": false,
+      "installed_license_files": [
+        {
+          "path": "setuptools-82.0.1.dist-info/licenses/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": "setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+          "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d"
+        },
+        {
+          "path": "setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": "setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+          "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04"
+        }
+      ]
+    }
+  ],
+  "font_notice_files": [
+    {
+      "path": "third_party/DejaVu-LICENSE.txt",
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    {
+      "path": "third_party/AMSFonts/OFL.txt",
+      "sha256": "aa783fdd47e92743bafe79277ac4067d20339344dc5b64a09c2d0f869b2999dc"
+    },
+    {
+      "path": "third_party/AMSFonts/OFL-FAQ.txt",
+      "sha256": "f1c022008dc7e763b1625c121ac50f4bf635179c809ca987af65e984659ce492"
+    },
+    {
+      "path": "third_party/LatinModern/LPPL-1.3c.txt",
+      "sha256": "3d262cdf34dafa6955f703c634a8c238ec44109bc8dd6ef34fb7aa54809f7e66"
+    },
+    {
+      "path": "third_party/LatinModern/GUST-FONT-LICENSE.TXT",
+      "sha256": "49ea6cb9257bbee0a3979c48a774cd221550ac1c20c95549efe45fc99cc18050"
+    }
+  ],
+  "source_urls": [
+    "https://ctan.org/pkg/lm",
+    "https://ctan.org/pkg/amsfonts",
+    "https://www.latex-project.org/lppl/lppl-1-3c.txt"
+  ],
+  "scope": "Installed distributions and identified font-family notices; no claim of complete transitive or historical ownership clearance."
+}

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hui-reversible-research"
+version = "0.1.0rc1"
+description = "Research implementation of residual-corrected reversible language-model training"
+authors = [{name = "WKK Lab"}]
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "AUTHORS.md", "THIRD_PARTY_NOTICES.md", "third_party/**/*"]
+requires-python = ">=3.11"
+dependencies = ["torch>=2.8"]
+
+[project.urls]
+Repository = "https://github.com/Hldao/hui-reversible-research"
+Issues = "https://github.com/Hldao/hui-reversible-research/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hui = ["source-provenance.json"]

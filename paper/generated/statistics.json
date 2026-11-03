@@ -1,0 +1,19 @@
+{
+  "n_seeds": 4,
+  "mean_delta": -0.003759479522704945,
+  "two_sided_95_t_ci": [
+    -0.019360093785992835,
+    0.011841134740582947
+  ],
+  "one_sided_95_upper": 0.007776902130210388,
+  "operational_mean_gate": true,
+  "operational_all_seed_gate": true,
+  "statistical_ni_at_0p005": false,
+  "fidelity_panels": 44,
+  "adam_gated_panels": 40,
+  "max_panel_median_grad_error": 0.007441795906713388,
+  "max_batch_grad_error": 0.010677947336660512,
+  "min_panel_median_cosine": 0.9999723488809928,
+  "max_gated_adam_error": 0.0025991537604605473,
+  "max_advisory_adam_error": 0.05761161859500054
+}

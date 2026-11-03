@@ -1,0 +1,323 @@
+{
+  "schema": "hui-arithmetic-source-audit-v1",
+  "records": [
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/run_hui_phase_d_job.sh",
+      "source_sha256": "8e4a7ce57ce49b62433fbb9a6ff46320c0535f5bc75d4e6ed4adecdf3b8c46d5",
+      "line": 85,
+      "excerpt": "--arm \"$arm\" --scale 1.3b --data-dir \"$data\" --batch-size 8 \\"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/run_hui_phase_d_job.sh",
+      "source_sha256": "8e4a7ce57ce49b62433fbb9a6ff46320c0535f5bc75d4e6ed4adecdf3b8c46d5",
+      "line": 86,
+      "excerpt": "--sequence-length 512 --gradient-accumulation 1 --learning-rate 0.00042 \\"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/persistent_experiment.py",
+      "source_sha256": "fafbc64a58972bc89c9d0b21051b982049e12f112d1af1a87997d4b94f5b4d6c",
+      "line": 855,
+      "excerpt": "model = ControlledCausalLM(config).to(device=device, dtype=torch.bfloat16)"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/persistent_experiment.py",
+      "source_sha256": "fafbc64a58972bc89c9d0b21051b982049e12f112d1af1a87997d4b94f5b4d6c",
+      "line": 860,
+      "excerpt": "parameter.data = parameter.data.float()"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/persistent_experiment.py",
+      "source_sha256": "fafbc64a58972bc89c9d0b21051b982049e12f112d1af1a87997d4b94f5b4d6c",
+      "line": 893,
+      "excerpt": "optimizer_groups, lr=args.learning_rate, betas=(0.9, 0.95), fused=True"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/persistent_experiment.py",
+      "source_sha256": "fafbc64a58972bc89c9d0b21051b982049e12f112d1af1a87997d4b94f5b4d6c",
+      "line": 1775,
+      "excerpt": "lr_scale = 0.1 + 0.9 * 0.5 * (1.0 + math.cos(math.pi * progress))"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 50,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 60,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 66,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 73,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 80,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 96,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 104,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 118,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 133,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 175,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 192,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 206,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 217,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 230,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 250,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 274,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 463,
+      "excerpt": "model = ControlledCausalLM(config).to(device=device, dtype=torch.bfloat16)"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 466,
+      "excerpt": "parameter.data = parameter.data.float()"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/phase-d-code/real_language_experiment.py",
+      "source_sha256": "1a08a541ef72676ae948493273a18e6838ac50b749ae43c7d7a962625d6e0057",
+      "line": 470,
+      "excerpt": "betas=(0.9, 0.95),"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/run_hui_phase_n_checkpoint.py",
+      "source_sha256": "29eabc8aa65f4df17be6fa8e42e7b40d937b4de11b4b69a731c4d62652911404",
+      "line": 37,
+      "excerpt": "model = ControlledCausalLM(config).to(device=device, dtype=torch.bfloat16)"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/run_hui_phase_n_checkpoint.py",
+      "source_sha256": "29eabc8aa65f4df17be6fa8e42e7b40d937b4de11b4b69a731c4d62652911404",
+      "line": 42,
+      "excerpt": "parameter.data = parameter.data.float()"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/run_hui_phase_n_checkpoint.py",
+      "source_sha256": "29eabc8aa65f4df17be6fa8e42e7b40d937b4de11b4b69a731c4d62652911404",
+      "line": 62,
+      "excerpt": "betas=(0.9, 0.95),"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/run_hui_scale_fidelity_q_job.sh",
+      "source_sha256": "58df7c3a0aedd95071f9f84646220517fd11eefd6ddc0d1a3a5d28005806dabc",
+      "line": 96,
+      "excerpt": "--arm \"$arm\" --scale 1.3b --data-dir \"$data\" --batch-size 8 \\"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/run_hui_scale_fidelity_q_job.sh",
+      "source_sha256": "58df7c3a0aedd95071f9f84646220517fd11eefd6ddc0d1a3a5d28005806dabc",
+      "line": 97,
+      "excerpt": "--sequence-length 512 --gradient-accumulation 1 --learning-rate 0.00042 \\"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 50,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 60,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 66,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 73,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 80,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 96,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 104,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 118,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 133,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 171,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 185,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 196,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 209,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 229,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 253,
+      "excerpt": "fp32_inverse_accumulation=True,"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 442,
+      "excerpt": "model = ControlledCausalLM(config).to(device=device, dtype=torch.bfloat16)"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 445,
+      "excerpt": "parameter.data = parameter.data.float()"
+    },
+    {
+      "source": "hui-scale-fidelity-20260808/code/real_language_experiment.py",
+      "source_sha256": "b2b1cf3c762e936b44df2548bd0e63c9dce88cc6a46ee3d58b312978a63daeb5",
+      "line": 449,
+      "excerpt": "betas=(0.9, 0.95),"
+    },
+    {
+      "source": "hui-k1-n2-context-ladder-20260809/code/run_hui_k1_incremental_stage_c.py",
+      "source_sha256": "82e04dfa2f4573d11e7b2f5ceff6b4a0a9c4d7b5d853d0e3f66501e04cdf8509",
+      "line": 52,
+      "excerpt": "model = ControlledCausalLM(config).to(device=device, dtype=torch.bfloat16)"
+    },
+    {
+      "source": "hui-k1-n2-context-ladder-20260809/code/run_hui_k1_incremental_stage_c.py",
+      "source_sha256": "82e04dfa2f4573d11e7b2f5ceff6b4a0a9c4d7b5d853d0e3f66501e04cdf8509",
+      "line": 56,
+      "excerpt": "parameter.data = parameter.data.float()"
+    },
+    {
+      "source": "hui-k1-n2-context-ladder-20260809/code/run_hui_k1_incremental_stage_c.py",
+      "source_sha256": "82e04dfa2f4573d11e7b2f5ceff6b4a0a9c4d7b5d853d0e3f66501e04cdf8509",
+      "line": 63,
+      "excerpt": "optimizer = torch.optim.AdamW(groups, lr=float(experiment[\"learning_rate\"]), betas=(0.9, 0.95), fused=True)"
+    },
+    {
+      "source": "packaged src/hui/language_model.py",
+      "source_sha256": "6f5e9a8f8487adfc19c5f12214fd6c7c3b16def31e93fb135ba20cfa2f1a87ed",
+      "line": 146,
+      "excerpt": "fp32_inverse_accumulation: bool = False"
+    }
+  ],
+  "interpretation": [
+    "Phase N reconstructs models from exact-arm configs; the default inverse accumulation flag is false unless overridden. No override appears in the recovered screen runner or fidelity hook.",
+    "Phase D launch arm explicitly enables FP32 inverse accumulation. FP32 inverse accumulation does not make branch evaluation entirely FP32.",
+    "BF16 construction is followed by casting learned scale logits to FP32.",
+    "Source-derived settings are not a complete runtime kernel/environment attestation."
+  ]
+}

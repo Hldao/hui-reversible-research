@@ -1,0 +1,308 @@
+{
+  "schema": "hui-paper-extended-evidence-v1",
+  "series_inventory": {
+    "hui-community-hybrid-a800-20260820": {
+      "file_count": 14,
+      "bytes": 26507
+    },
+    "hui-community-hybrid-a800-v11-c4-20260820": {
+      "file_count": 14,
+      "bytes": 22567
+    },
+    "hui-community-hybrid-a800-v12-fresh-20260821": {
+      "file_count": 4,
+      "bytes": 1391884
+    },
+    "hui-community-hybrid-a800-v13-downstream-20260821": {
+      "file_count": 11,
+      "bytes": 690313
+    },
+    "hui-community-hybrid-a800-v14-c4-factorial-20260821": {
+      "file_count": 34,
+      "bytes": 2276052
+    },
+    "hui-community-hybrid-a800-v9-r0-20260820": {
+      "file_count": 12,
+      "bytes": 17950
+    },
+    "hui-community-hybrid-cross-backend-v15-20260821": {
+      "file_count": 13,
+      "bytes": 1150409
+    },
+    "hui-community-hybrid-cross-backend-v16-20260821": {
+      "file_count": 5,
+      "bytes": 298256
+    },
+    "hui-cross-backend-migration-v39-live-20260822": {
+      "file_count": 9,
+      "bytes": 140507
+    },
+    "hui-cross-backend-migration-v39-pack-20260822": {
+      "file_count": 12,
+      "bytes": 1577551
+    },
+    "hui-n2-a800-backend-gap-20260820": {
+      "file_count": 14,
+      "bytes": 16150
+    },
+    "hui-open-data-a800-data-order-v32-20260822": {
+      "file_count": 3,
+      "bytes": 8662
+    },
+    "hui-open-rag-a800-route-longhorizon-v33-20260822": {
+      "file_count": 3,
+      "bytes": 287776
+    },
+    "hui-open-rag-cross-backend-v26-20260821": {
+      "file_count": 5,
+      "bytes": 209229
+    },
+    "hui-open-rag-cross-backend-v27-20260821": {
+      "file_count": 9,
+      "bytes": 423735
+    },
+    "hui-open-rag-prepared-pack-v22-20260821": {
+      "file_count": 5,
+      "bytes": 12039163
+    },
+    "hui-open-rag-prepared-pack-v22-20260821-r2": {
+      "file_count": 5,
+      "bytes": 1200014
+    },
+    "hui-open-rag-prepared-pack-v22-20260821-r3": {
+      "file_count": 5,
+      "bytes": 1132960
+    },
+    "hui-open-rag-s4000-route-longhorizon-v35-20260822": {
+      "file_count": 5,
+      "bytes": 992113
+    },
+    "hui-open-rag-s4000-route-longhorizon-v35-failed-20260822": {
+      "file_count": 4,
+      "bytes": 508000
+    },
+    "hui-open-rag-s4000-route-longhorizon-v35b-hard-stop-20260822": {
+      "file_count": 4,
+      "bytes": 511824
+    },
+    "hui-open-rag-tokenized-pack-v24-20260821": {
+      "file_count": 5,
+      "bytes": 2318216
+    },
+    "hui-open-rag-tokenized-pack-v24-20260821-r2": {
+      "file_count": 6,
+      "bytes": 4822636
+    },
+    "hui-open-rag-tokenized-pack-v24-20260821-r3": {
+      "file_count": 6,
+      "bytes": 4822636
+    },
+    "hui-open-source-audit-20261103-152055": {
+      "file_count": 4,
+      "bytes": 21756
+    }
+  },
+  "verified_input_hash_links": 30,
+  "source_file_sha256": {
+    "hui-community-hybrid-a800-v12-fresh-20260821/analysis-v12.json": "3be89052b0e684a51362a7ca207ac878f700fedd79546eba07fa9a26a58a755b",
+    "hui-community-hybrid-a800-v12-fresh-20260821/c4.json": "c5ddd0cba2eea648a70afc4c26092f953eba2a6df464afb3955ca6d4f828890d",
+    "hui-community-hybrid-a800-v12-fresh-20260821/full.json": "92799b9ec027b666e3de8f817fad4c859794ff139948200225ab500133160c64",
+    "hui-community-hybrid-a800-v12-fresh-20260821/g1024.json": "2c1c265e52b69db22c80c9eda9093332b89f9d9d19a769cf033a1c80cf2fd808",
+    "hui-community-hybrid-a800-v13-downstream-20260821/analysis-v13.json": "8dda783d53c9a12a56390bdb6acf77a8a2c4ca38c1b2e373ef8c0bd0b7fc31f0",
+    "hui-community-hybrid-a800-v13-downstream-20260821/results/c4/result.json": "bf2336bad7c5427de6f5404f41b9e34778072d292b6afc50c1d79854768e61f4",
+    "hui-community-hybrid-a800-v13-downstream-20260821/results/full/result.json": "d18628c68c2143277f614ee2800a704d836b7f5fa6f83da1f002be706fbbf5c2",
+    "hui-community-hybrid-a800-v13-downstream-20260821/results/g1024/result.json": "d95f94f2da531ff58ca6208b744b73840a62647c3770665011211b77a4a848a6",
+    "hui-community-hybrid-a800-v13-downstream-20260821/results/g1024-rerun1/result.json": "198cce61938c87e045f9ad167688955e953437f9022b3a0fdd45c9f016167a41",
+    "hui-community-hybrid-cross-backend-v16-20260821/analysis-v16b.json": "ea7adcacfaf559999d287c9f01df908bbe6712fd7cba7afac74a56010740b715",
+    "hui-community-hybrid-cross-backend-v15-20260821/results/cuda/C4_C8_LR075_CONFIRM/result.json": "fd6f96af16d32ace01b85bb86c114d001ab6e1f6d245374dc611ef3c8758b3d4",
+    "hui-community-hybrid-cross-backend-v15-20260821/results/cuda/FULL_CONFIRM/result.json": "0f20e7c8c13921095d774ad496b94d055c325f26eb287a7dd6a0c110c03248a3",
+    "hui-community-hybrid-cross-backend-v15-20260821/results/cuda/G1024_CONFIRM/result.json": "e1badda3312c67af4f7c8f6acda742777c598b25bc5748ee88b8b7f8f67d57ce",
+    "hui-community-hybrid-cross-backend-v15-20260821/results/musa/C4_C8_LR075_CONFIRM/result.json": "8bb06ab57eda95cd5282019728f89c848cda135f08d55f2b78ceb9d549e771d7",
+    "hui-community-hybrid-cross-backend-v15-20260821/results/musa/FULL_CONFIRM/result.json": "12ef98c1a176d267567e29a0972c2146ad4a5986b36f7ddc550a550a86487604",
+    "hui-community-hybrid-cross-backend-v15-20260821/results/musa/G1024_CONFIRM/result.json": "e88a9d0142d837e3523e5c2b9ce52817f1772275fea98915269c319ffc0e2b36",
+    "hui-community-hybrid-cross-backend-v16-20260821/results/musa/C4_C8_LR075_CONFIRM/result.json": "11ffeb584f0b5c203184159f75b4c6b73156fad8bc46a888548b297060dc9727",
+    "hui-open-rag-cross-backend-v27-20260821/analysis.json": "6f5cfb0bdbc13ec6a1cf15d03b3594ebebde998014bdd696663405bbdae67787",
+    "hui-open-rag-cross-backend-v27-20260821/cuda-c4-lr075.json": "9873f44b4e404ba330a1ae44541f28792bd8e7af6e3fda8a1187efb5bf2597af",
+    "hui-open-rag-cross-backend-v27-20260821/cuda-c4-lr100.json": "686d7a78b4929de3a9cc2a3804957becbd3ed176b58cf1ad03ce074ff161297b",
+    "hui-open-rag-cross-backend-v27-20260821/cuda-full-lr075.json": "fb1144fcc3a1604886d0471b0eb2d008533cfe810533ec470efbacdb4c8472d1",
+    "hui-open-rag-cross-backend-v27-20260821/cuda-full-lr100.json": "1cc74fd277ef47807568f13af703427c76f5f3879831189c02c96285f16895e5",
+    "hui-open-rag-cross-backend-v27-20260821/musa-c4-lr075.json": "4e1860877f973f7421f3012d41b2413a20290655e9ef89df83bc68daa8ec3ded",
+    "hui-open-rag-cross-backend-v27-20260821/musa-c4-lr100.json": "3736383fa746858c65935475cb6f2d601b13f92da3922248e634775238548692",
+    "hui-open-rag-cross-backend-v27-20260821/musa-full-lr075.json": "2685ca45af05782955b711ea689672bbc9a7c91e402431c0ffc6ca82a52621f1",
+    "hui-open-rag-cross-backend-v27-20260821/musa-full-lr100.json": "b6d2e44baa1b2ae0a4af23cc3bb45983f2ef3ba15a3df3f4092e6a8ee1f4d1c9",
+    "hui-open-rag-a800-route-longhorizon-v33-20260822/analysis.json": "34c69ca8841a6a4c36cccc1bc1105e3403c75373a9440601fbc4e05649a9d0ad",
+    "hui-open-rag-a800-route-longhorizon-v33-20260822/candidate.json": "ef855d1e2543989f343c3703557bfd491e1a1a7e625d53c6c91e2e8734b0547e",
+    "hui-open-rag-a800-route-longhorizon-v33-20260822/full.json": "3dc6a4bba01fe9033df2da1701e99e910b6dea732ce09079772109c069d942dc",
+    "hui-open-rag-s4000-route-longhorizon-v35-20260822/analysis/result.json": "eee7ae069b7b700b9a4d33417d5e4d0ac1e1902e3111402fe1e4f4dc5ccd1921",
+    "hui-open-rag-s4000-route-longhorizon-v35-20260822/C4_C8_LR100_LONG/result.json": "a885ad153f7d5bc14605f2d777f0ef14728c5c072224b0806105ea2cdc3c43e4",
+    "hui-open-rag-s4000-route-longhorizon-v35-20260822/FULL_LR100_LONG/result.json": "2420f2d976f8418e1917ffa51e112acc3b2a2b75fb93dcaf477a1cb1d815025d",
+    "hui-community-hybrid-a800-v11-c4-20260820/analysis-v11.json": "729a2d3612a7897d272ee9aa3b1fbbcdc5312bc7b8d04dc2ba86b08f653b6170",
+    "hui-community-hybrid-a800-v11-c4-20260820/t0-full.json": "e783ed0239f4ce2d4b20f7c77dcc3a854bb588ccd85598c0cef1166975a079e3",
+    "hui-community-hybrid-a800-v11-c4-20260820/t1-full.json": "c6bc204ea1dfe41df6caf9562d80a2554b088a74889935b6980e2e72fc4d978a",
+    "hui-community-hybrid-a800-v11-c4-20260820/t2-full.json": "428e1a458fac2e85ecdc8a667b2f3fcceb8c586ce7fc9c321a438b0b395d6010",
+    "hui-community-hybrid-a800-v11-c4-20260820/t0-c4.json": "ceed8338ddb2413eaee93823202e33b3651e41506c86daaf88f07c91212a87de",
+    "hui-community-hybrid-a800-v11-c4-20260820/t1-c4.json": "e3e827115756aa084254837e2680fcb257c93a4aa3dcb5be47d79646211d56a6",
+    "hui-community-hybrid-a800-v11-c4-20260820/t2-c4.json": "7a939b1417a182d3b14dbdae28b8553b387aa261032eb11b199fa849296d423f",
+    "hui-community-hybrid-a800-v11-c4-20260820/t0-g1024.json": "ae2a6046056f69c089728b12b8d8b3e5c3dfff1955ae277812992fcfc951c475",
+    "hui-community-hybrid-a800-v11-c4-20260820/t1-g1024.json": "787b126f97931a68b84d2a98b8db0f3a054e6123d55254bb4dc85564d9c70204",
+    "hui-community-hybrid-a800-v11-c4-20260820/t2-g1024.json": "47ccb9f498a5512708ccb1340f994ad65e2960ee2d368359d15ee390aacb1472",
+    "hui-cross-backend-migration-v39-live-20260822/analysis.json": "c9351d0f576676be3ae8d43ab42aee75ef21a3c5b100d10d6f00723cba87652e",
+    "hui-cross-backend-migration-v39-live-20260822/cuda-results/cuda-terminal-r3/receipt.json": "edfd449db2b453df62651654de8b85c88a1a05284264ecfd2a1e683e7eb51146",
+    "hui-cross-backend-migration-v39-live-20260822/cuda-results/cuda-step256-r3/receipt.json": "8233faa4043ee53bef057ed61b17bb48451e8aa4c9dacdffd0891b747398965b",
+    "hui-cross-backend-migration-v39-live-20260822/cuda-results/cuda-export-r3/receipt.json": "e638d0f26bd40bae8fc383016fd9f0682fe840e6a79291058149b98175a70af5",
+    "hui-cross-backend-migration-v39-live-20260822/musa-results/musa-terminal-r2/receipt.json": "f2e7a831dc6fda35b4d3a9002e4e666015da35b8450336f3ff69d95fc4e7cfca",
+    "hui-cross-backend-migration-v39-live-20260822/musa-results/musa-step256-r2/receipt.json": "1aca6f8bd32690e4ea034106738ae6b43cbab539b0e119f32fc6075e3b35a215",
+    "hui-cross-backend-migration-v39-live-20260822/musa-results/musa-export-r2/receipt.json": "e1b14143f02e24a268826b230efed121d0f0da019565d20f59ae1da694be730a"
+  },
+  "v11_resource_medians": {
+    "FULL_NATIVE_LIGER": {
+      "peak_allocated_bytes": 18925723136,
+      "peak_reserved_bytes": 20514340864,
+      "tokens_per_second": 14582.278123479706
+    },
+    "R0_C4_PACKED": {
+      "peak_allocated_bytes": 18744430080,
+      "peak_reserved_bytes": 19549650944,
+      "tokens_per_second": 11845.902640530412
+    },
+    "R0_C8_G1024": {
+      "peak_allocated_bytes": 18740760064,
+      "peak_reserved_bytes": 20566769664,
+      "tokens_per_second": 11837.022342727096
+    }
+  },
+  "v12_claim_boundary": "Fresh-data 64-update development non-inferiority screen on one checkpoint and one physical A800. It is not long-horizon convergence, downstream quality, production, financing, or cross-platform admission.",
+  "v13_endpoints": {
+    "full": {
+      "ce": 0.27611744155486423,
+      "greedy_all_fields_accuracy": 0.08333333333333333
+    },
+    "c4": {
+      "ce": 0.45237605459988117,
+      "greedy_all_fields_accuracy": 0.125
+    },
+    "g1024-rerun1": {
+      "ce": 0.18767706428964934,
+      "greedy_all_fields_accuracy": 0.08333333333333333
+    }
+  },
+  "v16_backend_gates": {
+    "cuda": {
+      "all_arms_learn": true,
+      "candidate_ce_noninferior": true,
+      "candidate_fields_noninferior": true,
+      "candidate_pass": true,
+      "candidate_row_noninferior": true,
+      "candidate_token_noninferior": true
+    },
+    "musa": {
+      "all_arms_learn": true,
+      "candidate_ce_noninferior": false,
+      "candidate_fields_noninferior": true,
+      "candidate_pass": false,
+      "candidate_row_noninferior": true,
+      "candidate_token_noninferior": false
+    }
+  },
+  "v27_route_lr_rows": [
+    {
+      "backend": "cuda",
+      "lr_multiplier": 0.75,
+      "full_ce": 6.911331315835317,
+      "candidate_ce": 6.942329658402337,
+      "delta": 0.030998342567020387
+    },
+    {
+      "backend": "cuda",
+      "lr_multiplier": 1.0,
+      "full_ce": 6.878812366061741,
+      "candidate_ce": 6.95501223537657,
+      "delta": 0.07619986931482892
+    },
+    {
+      "backend": "musa",
+      "lr_multiplier": 0.75,
+      "full_ce": 6.966711792680952,
+      "candidate_ce": 6.985116667217678,
+      "delta": 0.018404874536726012
+    },
+    {
+      "backend": "musa",
+      "lr_multiplier": 1.0,
+      "full_ce": 6.949033776919047,
+      "candidate_ce": 6.901833322313097,
+      "delta": -0.04720045460595035
+    }
+  ],
+  "longer_continuations": [
+    {
+      "version": "v33",
+      "backend": "cuda",
+      "updates": 256,
+      "full_ce": 6.809795571698083,
+      "candidate_ce": 6.806767794820997,
+      "delta": -0.003027776877085664,
+      "bootstrap_at_256": {
+        "interpretation": "DESCRIPTIVE_NOT_POPULATION_GENERALIZATION",
+        "iterations": 10000,
+        "lower_95": -0.06520110699865553,
+        "observed_mean_delta": -0.0030277768770853677,
+        "seed": 20261089,
+        "upper_95": 0.06017362773418425
+      }
+    },
+    {
+      "version": "v35",
+      "backend": "musa",
+      "updates": 256,
+      "full_ce": 6.744064662191603,
+      "candidate_ce": 6.707206441296472,
+      "delta": -0.03685822089513113,
+      "bootstrap_at_256": {
+        "interpretation": "DESCRIPTIVE_NOT_POPULATION_GENERALIZATION",
+        "iterations": 10000,
+        "lower_95": -0.09100790354940626,
+        "observed_mean_delta": -0.03685822089513143,
+        "seed": 20261091,
+        "upper_95": 0.01809321410126155
+      }
+    }
+  ],
+  "v39_terminal": [
+    {
+      "backend": "cuda",
+      "terminal": {
+        "exact_target_row_fraction": 0.1111111111111111,
+        "mean_target_cross_entropy": 4.2427518831359015,
+        "row_evidence_sha256": "9787e5ef0387b81d43fd045847455de565551f160439e32a72051b858078fc65",
+        "rows": 36,
+        "target_token_accuracy": 0.4,
+        "target_tokens": 175
+      },
+      "fresh_process_resume_exact_at_load": true,
+      "source_checkpoint_sha256": "b172493c8b5c28cdb5cde03694c38d16a6b70a89ab1a496f9779710e152c0b84",
+      "training_sha256": "128e1f4d0a9c51feadf90080e989b5d557ce75c6c887f419dfbd8a2e72fe2e63"
+    },
+    {
+      "backend": "musa",
+      "terminal": {
+        "exact_target_row_fraction": 0.1388888888888889,
+        "mean_target_cross_entropy": 4.027876150276926,
+        "row_evidence_sha256": "22941e7ee0fbc04a9327fb8856169c653bcaa6aca99f745d743844b94bbf6696",
+        "rows": 36,
+        "target_token_accuracy": 0.4057142857142857,
+        "target_tokens": 175
+      },
+      "fresh_process_resume_exact_at_load": true,
+      "source_checkpoint_sha256": "b172493c8b5c28cdb5cde03694c38d16a6b70a89ab1a496f9779710e152c0b84",
+      "training_sha256": "128e1f4d0a9c51feadf90080e989b5d557ce75c6c887f419dfbd8a2e72fe2e63"
+    }
+  ],
+  "boundaries": [
+    "Later segmented fixed-scale models differ from the learned-scale per-block N2 method.",
+    "Resource v11 uses batch8 seq4096 Liger, unlike the original N2 batch1 seq4096 probes.",
+    "Public-proxy fixed-evidence QA is not a retrieval-system evaluation.",
+    "Single-seed developmental thresholds are not statistical noninferiority.",
+    "No historical training rerun was performed."
+  ]
+}

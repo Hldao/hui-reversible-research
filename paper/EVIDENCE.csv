@@ -1,0 +1,16 @@
+claim,record,interpretation_boundary
+36 checkpoint screen,data/audited-results.json:phase_n,1152 repeated comparisons are not independent seeds
+four paired training endpoints,generated/quality.csv,shared seed family after selection and only 50M tokens
+operational tolerance pass,generated/statistics.json,not statistical noninferiority
+one sided upper 0.007777,build_results.py,paired t assumptions with only four seeds
+44 gradient panels,data/audited-results.json:fidelity_panels,only 40 panels have applicable AdamW gate
+matched N2 N1 speed ratios,data/audited-results.json:throughput,excludes I/O and does not compare full checkpointing
+context ladder,data/audited-results.json:context_a,4096 maximum tested length
+short context continuation,data/audited-results.json:context_b,no full checkpoint quality arm
+A800 resources,data/a800-results.json,three trials each timing three training steps
+saved y plus INT8 residual,../src/hui/torch_module.py,no depth independent activation memory claim
+frozen parameters unsupported,../src/hui/backends.py,no PEFT claim
+11 package checks,../docs/VALIDATION.md,software checks do not rerun historical GPU training
+paired runner BF16 construction,identity-linked persistent_experiment.py line 855,other per-run precision settings not recovered
+later segmented variants,data/extended-audit.json,separate fixed-scale family and one-seed exploratory tasks
+arithmetic source settings,data/arithmetic-source-evidence.json,source-derived configuration is not complete runtime attestation

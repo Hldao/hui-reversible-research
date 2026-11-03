@@ -1,0 +1,3 @@
+# Locally verified CPU baseline; historical CUDA experiments use a different environment.
+torch==2.8.0
+numpy==2.2.6

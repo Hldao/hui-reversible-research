@@ -1,0 +1,34 @@
+{
+  "citations": 8,
+  "paired_seed_count": 4,
+  "fidelity_panels": 44,
+  "adam_update_applicable_panels": 40,
+  "statistics_regenerated": true,
+  "figures_visually_reviewed": true,
+  "scientific_review": "Expanded manuscript reviewed against source excerpts and numeric audits; no material inconsistencies reported.",
+  "historical_gpu_runs_rerun_for_manuscript": false,
+  "missing_items": [
+    "complete historical runtime precision/environment/command manifests",
+    "independent N2 GPU reproduction"
+  ],
+  "pdf_pages": 9,
+  "pdf_compiled": true,
+  "pdf_all_pages_rendered_and_reviewed": true,
+  "latex_overfull_boxes": 0,
+  "latex_unresolved_citations": 0,
+  "tectonic_version": "0.17.0",
+  "manuscript_sha256": "de4ad24a2f9867e89f18cd5021b1428fda4ed7154af93488979a6e6f46e1d271",
+  "pdf_sha256": "f131d668de4eb06f161efb09a6b9feded38946e14b4f5479f88cedb346a933a5",
+  "author": "WKK Lab",
+  "expanded_audit": {
+    "inventoried_directories": 25,
+    "input_hash_links_verified": 30,
+    "local_sources_identified": 49,
+    "nas_source_records_recovered": 13,
+    "v11_resource_trials_reaggregated": 9,
+    "gpu_training_rerun": false
+  },
+  "desktop_translation_synchronized": true,
+  "project_license": "Apache-2.0",
+  "release_tag": "v0.1.0-rc1"
+}

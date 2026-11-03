@@ -1,0 +1,85 @@
+{
+  "schema": "hui-n2-a800-backend-gap-analysis-v1",
+  "protocol_id": "hui-n2-a800-backend-gap-20260820-v1",
+  "protocol_sha256": "7587548079be6129820ed035d3ee939403efee73ddb616a61f19836fd645531a",
+  "by_sequence_length": {
+    "4096": {
+      "finite": true,
+      "forward_sample_hash_equal": true,
+      "full_median": {
+        "peak_allocated_bytes": 11795025408,
+        "peak_reserved_bytes": 12041846784,
+        "tokens_per_second": 12102.767788425163
+      },
+      "n2_allocated_saving_observed": false,
+      "n2_median": {
+        "peak_allocated_bytes": 11834347520,
+        "peak_reserved_bytes": 12199133184,
+        "tokens_per_second": 8672.078598167338
+      },
+      "n2_to_full_ratio": {
+        "peak_allocated_bytes": 1.0033337878164577,
+        "peak_reserved_bytes": 1.0130616509926855,
+        "tokens_per_second": 0.716536807924311
+      },
+      "role": "primary_adjudication"
+    },
+    "512": {
+      "finite": true,
+      "forward_sample_hash_equal": true,
+      "full_median": {
+        "peak_allocated_bytes": 11774053888,
+        "peak_reserved_bytes": 12081692672,
+        "tokens_per_second": 13305.431618596907
+      },
+      "n2_allocated_saving_observed": false,
+      "n2_median": {
+        "peak_allocated_bytes": 11818094592,
+        "peak_reserved_bytes": 12069109760,
+        "tokens_per_second": 9486.275502413098
+      },
+      "n2_to_full_ratio": {
+        "peak_allocated_bytes": 1.0037404877214708,
+        "peak_reserved_bytes": 0.9989585141468496,
+        "tokens_per_second": 0.7129626286722032
+      },
+      "role": "calibration_only"
+    }
+  },
+  "compile_compatibility": {
+    "FULL_EXACT_CHECKPOINT": {
+      "classification": "COMPILED_WITHOUT_RECORDED_GRAPH_BREAK",
+      "error": null,
+      "graph_break_count": 0,
+      "success": true,
+      "timing_comparable": false,
+      "unique_graphs": 1
+    },
+    "N2_INT8_RESIDUAL": {
+      "classification": "PARTIAL_COMPILE_WITH_GRAPH_BREAK",
+      "error": null,
+      "graph_break_count": 1,
+      "success": true,
+      "timing_comparable": false,
+      "unique_graphs": 3
+    }
+  },
+  "matched_resource_verdict": "N2_MATCHED_RESOURCE_GATE_FAILED",
+  "claim_boundary": "Resource verdict uses eager forced PyTorch Flash SDPA only. Compiler probes are compatibility-only and their elapsed times are not compared. External FlashAttention-2 was not tested.",
+  "result_file_sha256": {
+    "compile-full.json": "7805ec9e72e0d58b1919aae2df45b20228532791d4448b6ff9d47ab6f75533de",
+    "compile-n2.json": "62a5a53fa4ec94493639ae9b99a0cd3426f505cbb3995d4940faf0fb584446e8",
+    "resource-s4096-t0-full.json": "93cd47e5c5242409b66f93adb1132e80bd74af349c178c9f4b697d2ec62a57a5",
+    "resource-s4096-t0-n2.json": "79c06e516aff709e90cfce465ef1d7a7900682bd131169bb74ebd2042aff5c98",
+    "resource-s4096-t1-full.json": "3f2a85954233350614682730e25499fdd0ad804184f06813464a7d75cb658b1e",
+    "resource-s4096-t1-n2.json": "58b84e884ec2fc49e8ae656147d50ed3b44bb7e79912074acab3ba7e07ee3696",
+    "resource-s4096-t2-full.json": "1d4d1efe164516a3d0c957d14e7668cf92501481fe9ee39a846e6f12a8c601b4",
+    "resource-s4096-t2-n2.json": "669515adf147196a8782663fead78408098192d44324d7dde1a3f854e4dfc4a9",
+    "resource-s512-t0-full.json": "3ad0339a195cac8aa593d997aa4a7d58f58caa2c06b8755218ded8999c68ebac",
+    "resource-s512-t0-n2.json": "155c20cdbe8d3b2b67e6232ac86452cb219a80de2a7a83f7fee0585906b3482b",
+    "resource-s512-t1-full.json": "2afc097ffba6e292a19c143687e2fbf6f0617f07436dba15ab60b9f4a37fa04f",
+    "resource-s512-t1-n2.json": "4032f702b0280a60c9c48aa74a5776790d333333c5750500fb8bdd9a9fb6de7d",
+    "resource-s512-t2-full.json": "04df420e864b31f2d27a2af9855ac05a18a33e73354eb4e6c1c85318845c7e38",
+    "resource-s512-t2-n2.json": "c52fe0571fc5bb0e3dc6ef986b02e1ae0c5f0fe36c84a801bf5f015461dc4042"
+  }
+}

@@ -1,0 +1,23 @@
+include README.md README.zh-CN.md RELEASE_STATUS.md requirements-cpu.txt
+include docs/EVIDENCE.md
+include docs/VALIDATION.md
+recursive-include provenance *.json
+recursive-include tests *.py
+recursive-include tools *.py
+
+include AUTHORS.md CITATION.cff THIRD_PARTY_NOTICES.md RELEASE_NOTES.md
+recursive-include third_party *
+
+include docs/SOURCE_PROVENANCE.md
+include paper/manuscript.tex paper/references.bib paper/README.md paper/build_results.py paper/requirements.txt
+include paper/build/manuscript.pdf
+recursive-include paper/data *.json
+recursive-include paper/generated *.json *.csv *.tex
+recursive-include paper/figures *.png *.pdf
+include paper/中文完整译稿.md paper/实验记录复核与完善建议.md
+
+include paper/*.md paper/*.csv
+include paper/build/verification.json
+
+
+include LICENSE NOTICE

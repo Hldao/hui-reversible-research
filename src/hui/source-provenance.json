@@ -1,0 +1,30 @@
+{
+  "schema": "hui-source-provenance-v1",
+  "files": [
+    {
+      "file": "src/hui/torch_module.py",
+      "upstream_snapshot": "hui-scale-fidelity-20260808/phase-d-code/torch_module.py",
+      "upstream_sha256": "87c78274e2bd6f9959d33b6e84d89351176471cfd84936e2f99e106c807b87f1",
+      "packaged_sha256": "87c78274e2bd6f9959d33b6e84d89351176471cfd84936e2f99e106c807b87f1",
+      "transformations": []
+    },
+    {
+      "file": "src/hui/language_model.py",
+      "upstream_snapshot": "hui-scale-fidelity-20260808/phase-d-code/language_model.py",
+      "upstream_sha256": "83c9f7358d545d4d3c891da729f07e17937614096d33158781fd2a83c77840dd",
+      "packaged_sha256": "6f5e9a8f8487adfc19c5f12214fd6c7c3b16def31e93fb135ba20cfa2f1a87ed",
+      "transformations": [
+        "Convert torch_module import to package-relative import; no other changes."
+      ]
+    },
+    {
+      "file": "src/hui/hui_phase_n_methods.py",
+      "upstream_snapshot": "hui-scale-fidelity-20260808/phase-d-code/hui_phase_n_methods.py",
+      "upstream_sha256": "adb5d02fa4d9350825c33899c913e4d6f79ab86def893a578ed5704eeedafc07",
+      "packaged_sha256": "e2b5e8123e88034fc902e2851d25ed30ccb4c9db5092d6ef1fd83381be0bec5f",
+      "transformations": [
+        "Convert torch_module import to package-relative import; no other changes."
+      ]
+    }
+  ]
+}

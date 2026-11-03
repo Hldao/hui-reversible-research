@@ -1,0 +1,121 @@
+{
+  "schema": "hui-pdf-font-inventory-v1",
+  "artifact": "paper/build/manuscript.pdf",
+  "families": {
+    "DejaVu": "third_party/DejaVu-LICENSE.txt",
+    "Latin Modern": "third_party/LatinModern/GUST-FONT-LICENSE.TXT",
+    "Computer Modern": "AMSFonts canonical Type1 family; see third_party/AMSFonts"
+  },
+  "fonts": [
+    {
+      "font": "LMRoman17-Regular",
+      "pdf_type": "Type0",
+      "family": "Latin Modern"
+    },
+    {
+      "font": "LMRoman12-Regular",
+      "pdf_type": "Type0",
+      "family": "Latin Modern"
+    },
+    {
+      "font": "LMRoman9-Bold",
+      "pdf_type": "Type0",
+      "family": "Latin Modern"
+    },
+    {
+      "font": "LMRoman9-Regular",
+      "pdf_type": "Type0",
+      "family": "Latin Modern"
+    },
+    {
+      "font": "CMSY9",
+      "pdf_type": "Type1",
+      "family": "Computer Modern"
+    },
+    {
+      "font": "CMR9",
+      "pdf_type": "Type1",
+      "family": "Computer Modern"
+    },
+    {
+      "font": "CMMI9",
+      "pdf_type": "Type1",
+      "family": "Computer Modern"
+    },
+    {
+      "font": "LMRoman12-Bold",
+      "pdf_type": "Type0",
+      "family": "Latin Modern"
+    },
+    {
+      "font": "LMRoman10-Regular",
+      "pdf_type": "Type0",
+      "family": "Latin Modern"
+    },
+    {
+      "font": "CMMI10",
+      "pdf_type": "Type1",
+      "family": "Computer Modern"
+    },
+    {
+      "font": "CMR10",
+      "pdf_type": "Type1",
+      "family": "Computer Modern"
+    },
+    {
+      "font": "CMMI7",
+      "pdf_type": "Type1",
+      "family": "Computer Modern"
+    },
+    {
+      "font": "CMSY10",
+      "pdf_type": "Type1",
+      "family": "Computer Modern"
+    },
+    {
+      "font": "CMR7",
+      "pdf_type": "Type1",
+      "family": "Computer Modern"
+    },
+    {
+      "font": "CMSY7",
+      "pdf_type": "Type1",
+      "family": "Computer Modern"
+    },
+    {
+      "font": "CMEX10",
+      "pdf_type": "Type1",
+      "family": "Computer Modern"
+    },
+    {
+      "font": "LMRoman10-Italic",
+      "pdf_type": "Type0",
+      "family": "Latin Modern"
+    },
+    {
+      "font": "LMRoman10-Bold",
+      "pdf_type": "Type0",
+      "family": "Latin Modern"
+    },
+    {
+      "font": "DejaVuSans",
+      "pdf_type": "Type0",
+      "family": "DejaVu"
+    },
+    {
+      "font": "DejaVuSans",
+      "pdf_type": "Type0",
+      "family": "DejaVu"
+    },
+    {
+      "font": "LMMono10-Regular",
+      "pdf_type": "Type0",
+      "family": "Latin Modern"
+    },
+    {
+      "font": "LMMono9-Regular",
+      "pdf_type": "Type0",
+      "family": "Latin Modern"
+    }
+  ]
+}
