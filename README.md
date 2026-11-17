@@ -2,9 +2,52 @@
 
 **Research pre-release · 0.1.0rc1 · Apache-2.0.** 中文说明见 [README.zh-CN.md](README.zh-CN.md).
 
-Hui is a research implementation of a hybrid reversible causal language model. It includes learned residual scales, three backward choices, and the N2 INT8 inverse-residual correction. The core comes from a hash-verified historical experiment snapshot; see [source provenance](provenance/sources.json).
+Hui is a research implementation for memory-constrained causal-language-model training. It studies whether an INT8 correction for reversible residual blocks can reduce activation storage while keeping backward computations numerically close to a reference path.
 
-This candidate is for researchers exploring training under memory constraints. It contains a small synthetic example that runs without datasets or pretrained weights. It does not convert existing Llama/Qwen checkpoints or establish production performance.
+The package lets you compare three backends on the same small model:
+
+- `exact`: ordinary autograd, used as the numerical reference;
+- `checkpoint`: full activation checkpointing, used as the practical resource baseline;
+- `n2`: INT8 inverse-residual correction for reversible blocks, with checkpointing for standard blocks.
+
+## What Hui is useful for
+
+Hui is intended for researchers and engineers who want to:
+
+- inspect how finite-precision reconstruction affects gradients and optimizer updates;
+- compare reversible reconstruction with activation checkpointing under a fixed model and workload;
+- prototype memory-constrained causal-LM training methods;
+- reproduce the packaged CPU checks and study the audited historical GPU results.
+
+It is a research instrument and a starting point for new backends. It is not a drop-in Llama/Qwen checkpoint converter, a production training framework, or a claim that N2 is faster or smaller in every setting.
+
+## Evidence at a glance
+
+The historical evidence and its boundaries are collected in [RESULTS.md](RESULTS.md), [the audited data](paper/data/audited-results.json), and [the A800 resource comparison](paper/data/a800-results.json).
+
+| Question | What the current evidence shows |
+|---|---|
+| Does the correction improve reconstruction fidelity? | In the Phase N screen, N2 passed the registered direct-fidelity gates for 36/36 checkpoints; the uncorrected inverse path passed 24/36. |
+| Does short training remain close to the reference? | Four paired 1.346B-parameter, 50M-token runs met the internal engineering tolerance. The mean validation-loss difference was -0.003759; four seeds are not enough to establish statistical non-inferiority. |
+| Does N2 beat full checkpointing on resources? | Not in the matched A800 probe: at sequence length 4096, N2 reached about 0.717× the checkpoint baseline's throughput and used about 1.003× its allocated memory. |
+| What is the positive memory result? | In the archived Phase D comparison, N2 reduced allocated memory by about 43.2% versus the saved-activation exact reference path. That comparison is not the same as full checkpointing. |
+
+The numbers above come from different historical protocols. They are not one universal benchmark, and the current CPU demo does not reproduce the archived GPU runs.
+
+## Possible application scenarios
+
+- **Method research:** compare reversible reconstruction, checkpointing, and activation-precision choices.
+- **Memory-constrained experiments:** explore whether a fixed model can run with a larger batch or sequence length under a defined memory budget.
+- **Numerical debugging:** inspect gradient, AdamW-update, and save/resume behavior instead of treating final loss as the only signal.
+- **Teaching and prototyping:** use the small CPU example to understand the training path before connecting a larger controlled experiment.
+
+## Current boundaries
+
+- The historical GPU experiments are not rerun by this public package.
+- The CPU demo uses a tiny model and random tokens; it checks wiring and deterministic resume, not language quality or GPU memory savings.
+- N2 training currently requires all parameters inside reversible blocks to remain trainable.
+- General pretrained-checkpoint conversion and LoRA/PEFT are outside this candidate.
+- The technical report is a working draft, not a peer-reviewed paper.
 
 ## Install and run
 
